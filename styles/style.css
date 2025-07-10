@@ -11,10 +11,12 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-top: 88px;
-  padding-right: 8px;
+  width: 1100px;
+  height: 293px;
+  padding-top: 105px;
+  padding-right: 20px;
   padding-bottom: 100px;
-  padding-left: 8px;
+  padding-left: 50px;
 }
 
 .header__menu-list ul {
@@ -23,7 +25,7 @@ body {
 
 .header__menu-list li {
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 5px;
   gap: 10px 20px;
 }
 
@@ -39,7 +41,8 @@ body {
 
 .border-line {
   text-decoration: underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 4px;
+  border-width: 1px;
 }
 
 .list_marker {
@@ -49,16 +52,16 @@ body {
 
 .logo-black {
   width: 148px;
-  height: 98px;
-  top: 92px;
+  height: 105px;
+  margin-right: 15px;
 }
 
 .header_contacts {
   max-width: 240px;
   list-style-type: none;
   justify-self: end;
-  line-height: 1.3;
-  margin-right: 40px;
+  line-height: 1.4;
+  margin-right: 60px;
 }
 
 address {
@@ -69,7 +72,8 @@ address {
   position: relative;
   width: 1100px;
   min-height: 757px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  margin-top: 12px;
 
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -103,7 +107,7 @@ address {
     /*ОНО*/
   text-align: left;
   width: 286px;
-  margin-left: 50px;
+  margin-left: 55px;
   margin-top: 165px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -113,8 +117,8 @@ address {
     /*ТЕБЕ*/
   text-align: center;
   width: 339px;
-  margin-left: calc(65% - 339px);
-  margin-top: 35px;
+  margin-left: calc(66% - 339px);
+  margin-top: 23px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -123,8 +127,8 @@ address {
     /*НАДО*/
   text-align: right;
   width: 387px;
-  margin-left: 663px;
-  margin-top: 35px;
+  margin-left: 668px;
+  margin-top: 20px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -135,16 +139,16 @@ address {
   justify-content: space-around;
   width: 1000px;
   height: 51px;
-  bottom: 40px;
-  left: 40px;
+  bottom: 50px;
+  left: 54px;
   white-space: nowrap;
   color: white;
 }
 
 .cover_description_text {
   text-align: center;
-  padding-top: 10px;
-  word-spacing: 20px;
+  padding-top: 15px;
+  word-spacing: 18px;
   width: 637px;
   height: 28px;
 
@@ -157,8 +161,8 @@ address {
   align-content: end;
   width: 256px;
   height: 51px;
-  margin-left: 80px;
-  line-height: 26px;
+  margin-left: 110px;
+  line-height: 20px;
   background-color: transparent;
   color: white;
   border: 1px solid white;
@@ -179,8 +183,9 @@ address {
   flex-direction: column;
   width: 1052px;
   height: 723px;
-  margin-top: 190px;
-  margin-left: 30px;
+  margin-top: 179px;
+  margin-left: 26px;
+  margin-right: 30px;
   gap: 20px;
 }
 
@@ -188,7 +193,7 @@ address {
   width: 121px;
   height: 47px;
   margin-left: 45px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 
   font-weight: 700;
   font-size: 40px;
@@ -201,7 +206,7 @@ address {
   display: grid;
   grid-template-columns: repeat(3, 334px);
   grid-template-rows: repeat(3, 596px);
-  gap: 20px;
+  gap: 27px;
   list-style-type: none;
 }
 
@@ -235,7 +240,7 @@ address {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 115%;
   text-decoration-line: underline;
   text-transform: uppercase;
 
@@ -244,16 +249,9 @@ address {
 
 .card__text {
   position: absolute;
-
   left: 40px;
   right: 40px;
   bottom: 48px;
-
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 120%;
   color: #ffffff;
 }
 
@@ -263,17 +261,27 @@ address {
 
 .card__text_lot-2 {
   height: 340px;
+  bottom: 65px;
 }
 
 .card__text_lot-3 {
   height: 264px;
+  
 }
 
 .more {
   width: 192px;
   height: 25px;
-  margin-top: 35px;
-  margin-left: 35px;
+  margin-left: 40px;
+}
+
+.card__text,
+.more {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
 }
 
 .about {
@@ -281,7 +289,7 @@ address {
   grid-template-columns: 334px 2fr;
   grid-template-rows: 240px 449px;
   gap: 20px;
-  padding-top: 135px;
+  padding-top: 155px;
 }
 
 .about__logo {
@@ -289,7 +297,7 @@ address {
   align-items: center;
   justify-content: center;
   border: 1px solid #000;
-  margin-left: 65px;
+  margin-left: 75px;
   width: 240px;
   height: 240px;
   background: black;
@@ -321,7 +329,9 @@ address {
   justify-self: start;
   align-self: stretch;
   width: 693px;
-  height: 312px;
+  height: 113px;
+  padding-top: 0px;
+  margin-bottom: 40px;
   margin-left: 390px;
   font-weight: 400;
   font-size: 20px;
@@ -329,30 +339,31 @@ address {
 }
 
 .about-card__text p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding-top: 0px;
+  padding-top: 35px;
   width: 1100px;
   height: 180px;
   gap: 20px;
 }
 
 .footer__menu-list {
-  width: 149px;
+  width: 150px;
   height: 64px;
+  margin-left: 5px;
 }
 
 .footer__menu-list-item_main a {
   text-decoration: none;
-  margin-left: 40px;
+  margin-left: 45px;
 }
 
 .footer__menu-list-item_about {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 ul {
@@ -362,20 +373,20 @@ ul {
 .footer_contacts {
   width: 265px;
   height: 98px;
-  margin-left: 45px;
+  margin-left: 57px;
   line-height: 1.3;
 }
 
 .footer__socials {
   display: flex;
   justify-self: end;
-  width: 270px;
-  height: 48px;
-  padding-right: 60px;
-  gap: 45px;
+  width: 285px;
+  height: 60px;
+  padding-right: 48px;
+  gap: 48px;
 }
 
 .socials {
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 75px;
 }
